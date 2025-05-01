@@ -1,0 +1,111 @@
+/* ABOUT */
+
+.about{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/* PROFILE */
+.profile{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+
+.section{
+    min-width: 100px;
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+figure img{
+    border-radius: 50%;
+    border: 5px solid grey;
+    display: block;
+}
+
+figcaption{
+    align-items: center;
+    color: yellow;
+    font-size: 1.5rem;
+}
+
+.section p{
+    background: #312742;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    border-radius:10px;
+    padding: 5px;
+}
+
+.add{
+    min-width: 100px;
+    height: 100px;
+    background: grey;
+    width: fit-content;
+    display: grid;
+    place-content: center;
+    font-size: 3rem; 
+    font-weight: 200; 
+    margin: 3rem; 
+    border: none;
+}
+
+/* CONTACT */
+
+.contact{
+    justify-content: center;
+}
+form{
+    border: 2px solid aqua;
+    border-radius: 10px;
+    padding: 1rem;
+    color: #e78be0;
+}
+
+.input{
+    width: 100%;
+    max-width: 60vw;
+    border-radius: 20px;
+    padding: 0.5rem;
+    display: flex;
+    gap: 10px;
+}
+
+input{
+    width: 100%;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    color: white;
+    background: #312742;
+    padding: 5px;
+}
+
+select{
+    width: 3rem;
+    text-align: center;
+    font-size: .6rem;
+}
+
+.aside ul li{
+    list-style: none;
+    border-radius: 5px;
+    border: none;
+}
+
+button{
+    background: gray;
+    padding: .5rem;
+    margin-left: 5rem;
+    border: none;
+    border-radius: 10px;
+}
